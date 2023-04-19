@@ -1,6 +1,6 @@
 pipeline {
     environment {
-        registry = 'valeriedarling/flask_app'
+        registry = 'acallahan89/flask_app'
         registryCredentials = 'docker'
         cluster_name = 'skillstorm'
     }
