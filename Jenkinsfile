@@ -3,6 +3,7 @@ pipeline {
         registry = 'acallahan89/flask_app'
         registryCredentials = 'docker'
         cluster_name = 'skillstorm'
+        namespace = 'acallahan89'
     }
   agent {
     node {
